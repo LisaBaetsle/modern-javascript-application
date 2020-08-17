@@ -216,6 +216,10 @@ body {
   padding: 10px 60px;
 }
 
+#spinner {
+  display: none;
+}
+
 .container {
   max-width: 900px;
   margin: auto;
