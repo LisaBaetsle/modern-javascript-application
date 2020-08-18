@@ -38,34 +38,34 @@ function getNameOfTheDay(day) {
 
 function getNameOfTheMonth(month) {
   switch (month) {
-    case 1:
+    case 0:
       return `January`;
-    case 2:
+    case 1:
       return `February`;
-    case 3:
+    case 2:
       return `March`;
-    case 4:
+    case 3:
       return `April`;
-    case 5:
+    case 4:
       return `May`;
-    case 6:
+    case 5:
       return `June`;
-    case 7:
+    case 6:
       return `July`;
-    case 8:
+    case 7:
       return `August`;
-    case 9:
+    case 8:
       return `September`;
+    case 9:
+      return `October`;
     case 10:
-      `October`;
-    case 11:
       return `November`;
-    case 12:
+    case 11:
       return `December`;
   }
 }
 
-//When submit buttin is clicked
+//When submit button is clicked
 document.getElementById('submit').addEventListener('click', handleSubmitButton)
 
 // When enter is pressed in submit button
@@ -135,6 +135,7 @@ function populateToday(data) {
 
 // check the time when city is inputted and change the index of the data to always show the min and max temp of the day and the icon of 12 o'clock
 function populateTheNextFourDays(hour, data) {
+  let firstDataPointID;
   if (hour < 3) {
     firstDataPointID = 12;
   } else if (hour < 6) {
