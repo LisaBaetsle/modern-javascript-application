@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="node_modules/chart.js/dist/Chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.3/dist/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="input-container">
+      <label for="city">Enter the city you're curious for:</label> </br>
+      <input type="text" id="cityInput" name="cityInput" placeholder="Ghent" value="Ghent"> </br>
+      <input type="submit" value="SUBMIT" id='submit'>
+    </div>
+
+    <div id="spinner">Loading...</div>
+
+    <div class="header">
+      <p id="cityCountryName"></p>
+      <p id="date"></p>
+    </div>
+
+    <div class="mainDayInfo">
+      <p id="temperature"></p>
+      <img src="" id="weatherIcon">
+      <p id="description"></p>
+    </div>
+    <div class="mainDayExtra">
+      <div class="row">
+        <div class="col-s-6 dayExtra">
+          <p id="windSpeed"></p>
+        </div>
+        <div class="col-s-6 dayExtra">
+          <p id="humidity"></p>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="myChart" width="700px" height="350px"></canvas>
+
+    <div class="otherDays">
+      <div class="row">
+        <div class="col-s-3 col-xs-6 day" id="dayOne">
+          <p id="dayOneName"></p>
+          <img src="" alt="" id="dayOneIcon" class="iconOtherDays">
+          <p id="dayOneMinMaxTemp"></p>
+        </div>
+        <div class="col-s-3 col-xs-6 day" id="dayTwo">
+          <p id="dayTwoName"></p>
+          <img src="" alt="" id="dayTwoIcon" class="iconOtherDays">
+          <p id="dayTwoMinMaxTemp"></p>
+        </div>
+        <div class="col-s-3 col-xs-6 day" id="dayThree">
+          <p id="dayThreeName"></p>
+          <img src="" alt="" id="dayThreeIcon" class="iconOtherDays">
+          <p id="dayThreeMinMaxTemp"></p>
+        </div>
+        <div class="col-s-3 col-xs-6 day" id="dayFour">
+          <p id="dayFourName"></p>
+          <img src="" alt="" id="dayFourIcon" class="iconOtherDays">
+          <p id="dayFourMinMaxTemp"></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- <script src="script.js"></script> -->
+<!-- <script type="module" src="../src/index.js"></script> -->
+<script src="main.js"></script>
+
+  
+  
+</body>
+
+</html>
