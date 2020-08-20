@@ -17,10 +17,10 @@ Reorganize (refactor) the code in as many functions as you can.
 Day 2 - JavaScript Modules  
 Divide your code into multiple files for better organization, and import/export things (functions, variables, classes) from one file to another.  
    
-Day 3 - Modules and the Browser 
+Day 3 - Modules and the Browser   
 Use the bundler webpack to bundle your JavaScript files.  
 
-Day 4 - Package Manager 
+Day 4 - Package Manager   
 Get to know the package manager npm (Node Package Manager).
 
 ## Tech/Framework used
