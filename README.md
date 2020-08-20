@@ -12,7 +12,16 @@ We are rewriting our weather-app in modern Javascript. In this way, we learn new
 ## Details
 
 Day 1 - Refactor   
-Reorganize (refactor) the code in as many functions as you can.
+Reorganize (refactor) the code in as many functions as you can.   
+   
+Day 2 - JavaScript Modules  
+Divide your code into multiple files for better organization, and import/export things (functions, variables, classes) from one file to another.  
+   
+Day 3 - Modules and the Browser 
+Use the bundler webpack to bundle your JavaScript files.  
+
+Day 4 - Package Manager 
+Get to know the package manager npm (Node Package Manager).
 
 ## Tech/Framework used
 
@@ -32,7 +41,7 @@ https://github.com/becodeorg/gnt-yu-3-21/tree/master/2.The-Hill/6.Anatomy-Of-A-M
 ## Products
   
 https://github.com/LisaBaetsle/modern-javascript-application  
-https://lisabaetsle.github.io/modern-javascript-application/
+https://lisabaetsle.github.io/modern-javascript-application/dist/index
 
 ## Thanks to
 
