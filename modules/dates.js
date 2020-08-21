@@ -74,5 +74,19 @@ function printNamesOfTheDays() {
   document.getElementById("dayFourName").textContent = getNameOfTheDay(TODAYPLUSFOUR);
 }
 
-export {TODAY, THISDAY, THISMONTH, THISYEAR, THISHOUR, TODAYPLUSONE, TODAYPLUSTWO, TODAYPLUSTHREE, TODAYPLUSFOUR};
-export {getNameOfTheDay, getNameOfTheMonth, printNamesOfTheDays};
+export {
+  TODAY,
+  THISDAY,
+  THISMONTH,
+  THISYEAR,
+  THISHOUR,
+  TODAYPLUSONE,
+  TODAYPLUSTWO,
+  TODAYPLUSTHREE,
+  TODAYPLUSFOUR
+};
+export {
+  getNameOfTheDay,
+  getNameOfTheMonth,
+  printNamesOfTheDays
+};
